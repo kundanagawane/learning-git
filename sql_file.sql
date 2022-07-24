@@ -1,1 +1,1 @@
-select * from dual where 1=2;
+select 'Data'||level vl_new_data from dual connect by level <= 10;
